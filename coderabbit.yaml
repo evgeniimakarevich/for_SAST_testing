@@ -1,0 +1,16 @@
+rules:
+  - name: OWASP Top 10
+    severity: high
+    enabled: true
+
+  - name: Hardcoded Secrets
+    severity: high
+    enabled: true
+
+  - name: Insecure Dependencies
+    severity: medium
+    enabled: true
+
+  - name: Code Quality
+    severity: low
+    enabled: false
